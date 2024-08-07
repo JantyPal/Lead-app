@@ -16,7 +16,7 @@ const Updatelead = () => {
             const singleLead = leads.filter((ele) => ele.id === id);
             setUpdateData(singleLead[0]);
         }
-    },[updateData]);
+    },[]);
 
     const newData = (e) => {
         setUpdateData({...updateData, [e.target.name] : e.target.value});
