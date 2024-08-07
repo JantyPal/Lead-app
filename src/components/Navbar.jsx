@@ -11,7 +11,7 @@ const Navbar = () => {
 
     useEffect(() => {
         dispatch(searchLead(searchData));
-    }, [searchData]);
+    });
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">

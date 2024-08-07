@@ -13,7 +13,7 @@ const Readlead = () => {
 
     useEffect(() => {
         dispatch(getAllLeads());
-    }, [])
+    })
 
     if (loading) {
         return <h3>Loading...</h3>
